@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LCTRL, LGUI, INS, RET, lower, raise, SPACE, BACKSPACE, MENU, RIGHT ALT]
   lower:
   - '&studio_unlock'
   - F1
@@ -14,50 +14,50 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: default, h: sticky}
   - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - <
+  - '>'
+  - '|'
+  - '&'
+  - '!'
+  - /
   - '7'
   - '8'
   - '9'
-  - '0'
+  - '*'
   - F12
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - ;
-  - ':'
   - \
+  - ''''
+  - '`'
+  - '-'
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - '|'
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - '{'
+  - '}'
+  - '|'
+  - '"'
+  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+_
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -69,52 +69,51 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - OUT TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: default, h: sticky}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - LCTRL
-  - LSHFT
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
+  - {t: ▽, type: trans}
+  - '&msc SCRL_RIGHT'
+  - '&mkp MB2'
+  - '&mmv MOVE_UP'
+  - '&mkp MB1'
+  - '&msc SCRL_UP'
   - LEFT
   - DOWN
+  - UP
   - RIGHT
-  - DEL
-  - BSPC
+  - PAGE UP
+  - Ctl+HOME
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - Ctl+LEFT
+  - Ctl+RIGHT ARROW
+  - END
+  - PAGE DOWN
+  - Ctl+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,13 +123,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&sys_reset'
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - OUT TOG
   - ''
   - ''
   - ''
@@ -138,7 +138,7 @@ layers:
   - ''
   - ''
   - EP TOG
-  - RGB HUD
+  - ''
   - RGB HUI
   - RGB SAD
   - RGB SAI
@@ -150,38 +150,38 @@ layers:
   - ''
   - ''
   - ''
-  - RGB BRD
-  - RGB BRI
   - ''
   - ''
   - ''
   - ''
   - ''
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - PRINTSCREEN
+  - Alt+LEFT
+  - Alt+RIGHT
   - RGB TOG
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - Ctl+Sft+`
+  - Sft+Ctl+=
   - ''
   - ''
   - ''
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
   - {type: held}
+  - ''
   - ''
   - ''
   - ''
