@@ -29,6 +29,101 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        AdjustLayer {
+            bindings = <&mo 3>;
+            key-positions = <54 55>;
+        };
+
+        capslock {
+            bindings = <&kp CLCK>;
+            key-positions = <36 49>;
+        };
+
+        lessthan {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <3 4>;
+        };
+
+        greaterthan {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <7 8>;
+        };
+
+        leftparens {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <15 16>;
+        };
+
+        rightparens {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        leftbracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <27 28>;
+        };
+
+        rightbracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <31 32>;
+        };
+
+        leftbrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <39 40>;
+        };
+
+        rightbrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <45 46>;
+        };
+
+        commandmenu {
+            bindings = <&kp LS(LC(P))>;
+            key-positions = <8 9 10>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <5 6>;
+        };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <41 44>;
+        };
+
+        Rpipe {
+            bindings = <&Rpipe>;
+            key-positions = <17 18>;
+        };
+
+        Rassign {
+            bindings = <&Rassign>;
+            key-positions = <29 30>;
+        };
+    };
+
+    macros {
+        Rassign: Rassign {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp MINUS>;
+            label = "RASSIGN";
+        };
+
+        Rpipe: Rpipe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp PIPE &kp GT>;
+            label = "RPIPE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
