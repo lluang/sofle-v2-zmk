@@ -44,7 +44,7 @@ layers:
   - {t: V, h: LCTRL}
   - {t: B, h: lower}
   - MUTE
-  - {t: default, h: sticky}
+  - {t: default, h: toggle}
   - {t: N, h: raise}
   - {t: M, h: RCTRL}
   - {t: ',', h: RIGHT ALT}
@@ -111,7 +111,7 @@ layers:
   - '2'
   - '3'
   - '='
-  - {t: default, h: sticky}
+  - {t: default, h: toggle}
   - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,7 +159,7 @@ layers:
   - RIGHT
   - PAGE UP
   - Ctl+HOME
-  - {t: default, h: sticky}
+  - {t: default, h: toggle}
   - '&msc SCRL_LEFT'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
