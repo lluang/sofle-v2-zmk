@@ -242,8 +242,8 @@ layers:
   - {type: held}
   - ''
   - ''
-  - ''
-  - ''
+  - Gui+Sft+LEFT ARROW
+  - Gui+Sft+RIGHT
 combos:
 - p: [54, 55]
   k: adjust
