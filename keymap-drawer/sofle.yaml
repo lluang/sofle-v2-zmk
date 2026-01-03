@@ -38,8 +38,8 @@ layers:
   - ;
   - ''''
   - LSHFT
-  - Z
-  - X
+  - {t: Z, h: LEFT SHIFT}
+  - {t: X, h: CMENU}
   - {t: C, h: LALT}
   - {t: V, h: LCTRL}
   - {t: B, h: lower}
@@ -48,8 +48,8 @@ layers:
   - {t: N, h: raise}
   - {t: M, h: RCTRL}
   - {t: ',', h: RIGHT ALT}
-  - .
-  - /
+  - {t: ., h: RIGHT GUI}
+  - {t: /, h: RIGHT SHIFT}
   - RSHFT
   - LCTRL
   - LGUI
@@ -59,7 +59,7 @@ layers:
   - lower
   - SPACE
   - BACKSPACE
-  - MENU
+  - CMENU
   - RIGHT ALT
   lower:
   - '&studio_unlock'
