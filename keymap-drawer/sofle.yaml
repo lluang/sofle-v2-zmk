@@ -231,19 +231,19 @@ layers:
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
-  - Ctl+Sft+`
+  - Ctl+Sft+-
   - Sft+Ctl+=
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - Ctl+Z
+  - Ctl+Y
   - {type: held}
   - {type: held}
-  - ''
-  - ''
-  - Gui+Sft+LEFT ARROW
+  - Gui+Sft+LEFT
   - Gui+Sft+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [54, 55]
   k: adjust
