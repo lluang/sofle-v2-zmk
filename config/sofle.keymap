@@ -147,7 +147,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp LC(C_AC_ZOOM_IN) LC(MINUS)>;
+                <&inc_dec_kp LC(PLUS) LC(MINUS)>;
         };
 
         lower_layer {
