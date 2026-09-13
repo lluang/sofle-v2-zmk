@@ -38,18 +38,18 @@ layers:
   - ;
   - ''''
   - LSHFT
-  - {t: Z, h: LEFT SHIFT}
-  - {t: X, h: CMENU}
-  - {t: C, h: LALT}
-  - {t: V, h: LCTRL}
+  - Z
+  - X
+  - C
+  - V
   - {t: B, h: lower}
   - MUTE
   - {t: default, h: toggle}
   - {t: N, h: raise}
-  - {t: M, h: RCTRL}
-  - {t: ',', h: RIGHT ALT}
-  - {t: ., h: RIGHT GUI}
-  - {t: /, h: RIGHT SHIFT}
+  - M
+  - ','
+  - .
+  - /
   - RSHFT
   - LCTRL
   - LGUI
