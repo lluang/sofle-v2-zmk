@@ -163,8 +163,8 @@
 
             bindings = <
 &studio_unlock  &trans            &trans             &trans         &trans             &trans                             &trans              &trans        &trans        &trans        &trans        &trans
-&trans          &kp LESS_THAN     &kp GREATER_THAN   &kp PIPE       &kp AMPS           &kp EXCLAMATION                    &kp SLASH           &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
-&trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SINGLE_QUOTE   &kp GRAVE                          &kp MINUS           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &trans
+&trans          &kp LESS_THAN     &kp GREATER_THAN   &kp PIPE       &kp AMPS           &kp EXCLAMATION                    &kp PLUS            &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
+&trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SINGLE_QUOTE   &kp GRAVE                          &kp MINUS           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH     &trans
 &bootloader     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE       &kp DOUBLE_QUOTES  &kp TILDE        &trans    &trans  &kp LS(UNDERSCORE)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &to 0
                                   &sys_reset         &trans         &trans             &trans           &trans    &trans  &trans              &kp NUMBER_0  &kp PERIOD    &trans
             >;
