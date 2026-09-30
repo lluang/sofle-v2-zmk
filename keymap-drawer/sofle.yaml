@@ -51,9 +51,9 @@ layers:
   - .
   - /
   - RSHFT
-  - LCTRL
-  - LGUI
   - INS
+  - LGUI
+  - LCTRL
   - RET
   - raise
   - lower
